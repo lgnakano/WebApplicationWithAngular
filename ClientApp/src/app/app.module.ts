@@ -18,7 +18,7 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    AboutComponent
+    AboutComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
