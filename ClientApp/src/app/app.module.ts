@@ -9,7 +9,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
-import { AboutComponent } from './about/about.component';
+import { FreqChartComponent } from './freqChart/freqChart.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { DealsComponent } from './deals/deals.component';
 import { LoginComponent } from './login/login.component';
@@ -25,7 +25,7 @@ import { MaterialModule } from './material.module';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    AboutComponent,
+    FreqChartComponent,
     SignUpComponent,
     DealsComponent,
     LoginComponent,
@@ -40,7 +40,7 @@ import { MaterialModule } from './material.module';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: 'about', component: AboutComponent },
+      { path: 'freqChart', component: FreqChartComponent },
       { path: 'sign-up', component: SignUpComponent },
       { path: 'login', component: LoginComponent },
       { path: 'deals', component: DealsComponent }
