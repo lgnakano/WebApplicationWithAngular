@@ -23,4 +23,10 @@ Demo is on https://lgnakano.github.io/WebApplicationWithAngular
 <ul>
   <li>cd ClientApp</li>
   <li>ng generate component <b>componentName</b> -m app</li>
+  <li>add it to the router menu by editing <b>app.modules.ts</b> to include into RouterModule.forRoot array (add a new path, and set the component to the selector string found on componentName.ts.
 </ul>
+
+<h3>To add a new component to the menu:</h3>
+<ul>
+  <li>add new nav-item and nav-link to nav-menu.component.html.</li>
+ </ul>
