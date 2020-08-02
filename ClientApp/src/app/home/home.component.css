@@ -52,7 +52,7 @@ body{
 }
 
 #showcase {
-    background-image: url('../../assets/img/Flyby.jfif');
+    background-image: url('../../assets/img/Flyby2.jpg');
     /*background-repeat:no-repeat;*/
     background-size:cover;
     background-position:center;
@@ -78,7 +78,7 @@ body{
 #sidebar{
     float:right;
     width:30%;
-    background:#333;
+    background:#ffd800;
     color:teal;
     padding:0 30px;
     box-sizing: border-box; 
