@@ -32,6 +32,8 @@ namespace WebApplication1
         public int locationID { get; set; }
 
         public string AirportName { get; set; }
+        [Key]
+        public int AirportID { get; set; }
 
         
         public List<Flight> Flights { get; set; }
@@ -40,7 +42,7 @@ namespace WebApplication1
     public class Flight
     {
         public int locationID { get; set; }
-
+        [Key]
         public int flightnum { get; set; }
 
         public string airline { get; set; }
