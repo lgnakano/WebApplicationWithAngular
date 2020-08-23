@@ -16,6 +16,11 @@ namespace WebApplication1.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
+        private static readonly string[] Locations = new[]
+        {
+            "Tampa","New York City", "Rio De Janiero", "Tokyo","London", "Kingston"
+        };
+
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
@@ -32,6 +37,7 @@ namespace WebApplication1.Controllers
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]
+                
             })
             .ToArray();
         }

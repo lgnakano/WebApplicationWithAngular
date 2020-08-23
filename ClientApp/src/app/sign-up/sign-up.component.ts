@@ -33,6 +33,14 @@ export class SignUpComponent implements OnInit {
         Validators.min(18),
         Validators.max(65)
       ]],
+      fName: [null, [
+        Validators.required,
+        Validators.minLength(2)
+      ]],
+      lName: [null, [
+        Validators.required,
+        Validators.minLength(2)
+      ]],
       agree: [false, [
         Validators.requiredTrue
       ]]
