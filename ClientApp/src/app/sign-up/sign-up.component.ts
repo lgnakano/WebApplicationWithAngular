@@ -51,6 +51,14 @@ export class SignUpComponent implements OnInit {
     return this.myForm.get('email');
   }
 
+  get fName() {
+    return this.myForm.get('fName');
+  }
+
+  get lName() {
+    return this.myForm.get('lName');
+  }
+
   get password() {
     return this.myForm.get('password');
   }
@@ -62,4 +70,11 @@ export class SignUpComponent implements OnInit {
   get agree() {
     return this.myForm.get('agree');
   }
+
 }
+
+
+
+
+
+

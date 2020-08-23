@@ -18,9 +18,10 @@ namespace WebApplication1.Controllers
         {
             dbContext = context;
         }
-        public IActionResult Index()
+        public IActionResult create()
         {
             return View();
         }
+
     }
 }
