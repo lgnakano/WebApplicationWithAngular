@@ -10,6 +10,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication1.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class DbController : Controller
     {
         public ApplicationDbContext dbContext;
@@ -18,10 +20,19 @@ namespace WebApplication1.Controllers
         {
             dbContext = context;
         }
+
+        [HttpPut]
         public IActionResult create()
         {
             return View();
         }
+
+        [HttpGet]
+        public SignUp Get()
+        {
+            return new SignUp();
+        }
+
 
     }
 }
